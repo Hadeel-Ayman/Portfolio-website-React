@@ -1,0 +1,84 @@
+.main {
+  margin-top: 0;
+  padding: 150px 0 100px 0;
+  background-image: url("../../assets/images/banner-bg.png");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main .tagline {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  background: linear-gradient(
+    90.21deg,
+    rgb(170, 54, 124, 0.5),
+    rgba(74, 47, 189, 0.5)
+  );
+  border: 1px solid #ffe1e180;
+  font-size: 20px;
+  margin-bottom: 16px;
+  color: #fff;
+  display: inline-block;
+}
+.main h1 {
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  margin-bottom: 20px;
+  display: block;
+  color: #fff;
+}
+.main p {
+  color: #bbb;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5rem;
+  width: 96%;
+}
+.main button {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  margin-top: 40px;
+  letter-spacing: 0.8px;
+}
+.main button svg {
+  font-size: 25px;
+  letter-spacing: 0.8px;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+}
+.main button:hover svg {
+  margin-left: 25px;
+}
+.main img {
+  animation-name: man;
+  position: relative;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.main .Contanierimg {
+  align-items: start;
+  justify-content: right;
+  display: flex;
+}
+@keyframes man {
+  0% {
+    transform: translateY(-20%);
+  }
+
+  50% {
+    transform: translateY(20%);
+  }
+
+  100% {
+    transform: translateY(-20%);
+  }
+}

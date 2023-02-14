@@ -1,0 +1,13 @@
+.flex {
+  display: flex;
+  margin: 0 10px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.text-light {
+  margin: 0 15px;
+  text-decoration: none;
+}
