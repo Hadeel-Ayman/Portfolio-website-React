@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
+import "./style.css";
 
 const Projects = () => {
-  return (
-    <div>Projects</div>
-  )
-}
+  return <section>
+  
+  </section>
+};
 
-export default Projects
+export default Projects;
