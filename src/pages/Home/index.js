@@ -5,9 +5,9 @@ import Skills from "../../Sections/Skills";
 const Home = () => {
   return (
     <div>
-      {/* <Outlet/> */}
-      <Main/>
-      <Skills/>
+      <Outlet/>
+      {/* <Main/> */}
+      {/* <Skills/> */}
     </div>
   );
 };

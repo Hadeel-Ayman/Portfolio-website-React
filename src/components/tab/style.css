@@ -1,0 +1,41 @@
+.tab {
+  width: 82%;
+  height: 60px;
+  border-radius: 30px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  border: 1px solid #414141;
+  justify-content: space-between;
+  background-color: #131313;
+}
+.tabs {
+  border-right: 1px solid #414141;
+}
+.tabs,
+.tab3 {
+  width: 39%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tabs:hover,
+.tab3:hover {
+  background-image: linear-gradient(#ff5f6d, #ffc371);
+  cursor: pointer;
+}
+.tab3:hover {
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.tab1:hover {
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
+.tabs a,
+.tab3 a {
+  text-decoration: none;
+  color: #ffff;
+  font-size: 20px;
+}

@@ -5,6 +5,7 @@ import "react-multi-carousel/lib/styles.css";
 import back from "../../assets/images/color-sharp2.png";
 import Progress from "../../components/Progress";
 import { Col, Container, Row } from "react-bootstrap";
+import Title from "../../components/Title";
 
 const Skills = () => {
   const carousel = {
@@ -36,7 +37,7 @@ const Skills = () => {
         <Row>
           <Col>
             <div className="skillsDiv">
-              <h2>Skills</h2>
+            <Title title={'Skills'}/>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
                 dui lacus, suscipit et viverra lobortis, venenatis nec magna.

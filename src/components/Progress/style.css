@@ -2,7 +2,6 @@
   position: relative;
   width:270px;
   height: 400px;
-  /* background-color: blue; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,6 +30,7 @@
 .box .percent svg circle:nth-child(2) {
   stroke-dashoffset: calc(440 - (440 * 90) / 100);
   stroke: url(#Gradient);
+  
 }
 .box .percent .number {
   position: absolute;

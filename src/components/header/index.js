@@ -18,7 +18,7 @@ function Header() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="container">
-            <Link to={"/"} className="text-light">
+            <Link to={"main"} className="text-light">
               Home
             </Link>
             <Link to={"skills"} className="text-light">

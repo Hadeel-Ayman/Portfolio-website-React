@@ -11,8 +11,8 @@ const Progress = ({ number, title }) => {
             <svg>
               <defs>
                 <linearGradient id="Gradient">
-                  <stop offset={"0%"} stopColor="#b92b27" />
-                  <stop offset={"100%"} stopColor="#1565C0" />
+                  <stop offset={"0%"} stopColor="#eecda3" />
+                  <stop offset={"100%"} stopColor="#ef629f" />
                 </linearGradient>
               </defs>
               <circle cx="70" cy="70" r="80" strokeLinecap="round"></circle>

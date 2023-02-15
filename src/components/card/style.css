@@ -1,7 +1,5 @@
-.card {
-  height: 210px;
-  width: 18rem;
-}
 .img {
-  width: 100%;
+  height: 210px;
+  width: 20rem;
+  margin: 10px;
 }
