@@ -5,7 +5,6 @@ import icon1 from "../../assets/images/nav-icon1.svg";
 import icon2 from "../../assets/images/nav-icon2.svg";
 import icon3 from "../../assets/images/nav-icon3.svg";
 import Icon from "../Icons";
-import { Link } from "react-router-dom";
 
 function Header() {
   return (
