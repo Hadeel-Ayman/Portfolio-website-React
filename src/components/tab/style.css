@@ -33,8 +33,7 @@
   border-bottom-left-radius: 30px;
   border-top-left-radius: 30px;
 }
-.tabs a,
-.tab3 a {
+.tab a {
   text-decoration: none;
   color: #ffff;
   font-size: 20px;

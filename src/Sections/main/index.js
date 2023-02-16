@@ -6,11 +6,10 @@ import { Col, Container, Row } from "react-bootstrap";
 
 const Main = () => {
   return (
-    <section className="main">
+    <section className="main" id="main">
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={6}>
-            {/* <span className="tagline">welcome to my profile</span> */}
             <h1>
               {"Hi I’m Hadeel "}
               <span className="wrap">Frontend developer</span>

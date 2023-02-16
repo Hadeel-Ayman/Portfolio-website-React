@@ -2,7 +2,6 @@ import React from "react";
 import "./style.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import back from "../../assets/images/color-sharp2.png";
 import Progress from "../../components/Progress";
 import { Col, Container, Row } from "react-bootstrap";
 import Title from "../../components/Title";
@@ -28,7 +27,7 @@ const Skills = () => {
   };
 
   return (
-    <section className="skillsSection">
+    <section className="skillsSection" id="skills">
       {/* <Carousel responsive={carousel} infinite={true} className='slider'>
         <Progress title={'fff'} number='50'/>
       </Carousel> */}
@@ -58,7 +57,6 @@ const Skills = () => {
           </Col>
         </Row>
       </Container>
-      {/* <img className="background" src={back} alt="" /> */}
     </section>
   );
 };

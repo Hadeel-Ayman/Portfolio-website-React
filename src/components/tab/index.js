@@ -5,15 +5,15 @@ import "./style.css";
 const Tab = () => {
   return (
     <div className="tab">
-      <div className="tabs tab1">
-        <Link to={"project1"}>Tab1</Link>
-      </div>
-      <div className="tabs">
-        <Link to={"project2"}>Tab2</Link>
-      </div>
-      <div className="tab3">
-        <Link to={"project3"}>Tab3</Link>
-      </div>
+      <Link to={"project1"} className="tabs tab1">
+        <div>Tab1</div>
+      </Link>
+      <Link to={"project2"} className="tabs">
+        <div>Tab2</div>
+      </Link>
+      <Link to={"project3"} className="tab3">
+        <div>Tab3</div>
+      </Link>
     </div>
   );
 };

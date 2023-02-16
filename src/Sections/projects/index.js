@@ -22,7 +22,7 @@ const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <Outlet/>
+      <Outlet />
     </section>
   );
 };

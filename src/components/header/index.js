@@ -4,7 +4,6 @@ import "./style.css";
 import icon1 from "../../assets/images/nav-icon1.svg";
 import icon2 from "../../assets/images/nav-icon2.svg";
 import icon3 from "../../assets/images/nav-icon3.svg";
-import logo from "../../assets/images/logo.svg";
 import Icon from "../Icons";
 import { Link } from "react-router-dom";
 
@@ -13,23 +12,23 @@ function Header() {
     <Navbar collapseOnSelect expand="lg" bg="dark" sticky="top">
       <Container>
         <Navbar.Brand href="/">
-          <img src={logo} alt="" />
+          <h1>Profile</h1>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="container">
-            <Link to={"main"} className="text-light">
+            <a href="#main" className="text-light">
               Home
-            </Link>
-            <Link to={"skills"} className="text-light">
+            </a>
+            <a href="#skills" className="text-light">
               Skills
-            </Link>
-            <Link to={"projects"} className="text-light">
+            </a>
+            <a href="#projects" className="text-light">
               Projects
-            </Link>
-            <Link to={"courses"} className="text-light">
+            </a>
+            <a href="#courses" className="text-light">
               Courses
-            </Link>
+            </a>
             <div className="flex">
               <Icon
                 href={"www.linkedin.com/in/hadeel-ayman-45514724b"}
