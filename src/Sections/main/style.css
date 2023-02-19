@@ -61,7 +61,7 @@
   animation-timing-function: linear;
 }
 .main .Contanierimg {
-  align-items: start;
+  align-items: flex-start;
   justify-content: right;
   display: flex;
 }
