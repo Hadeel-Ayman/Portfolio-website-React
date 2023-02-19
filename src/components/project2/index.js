@@ -1,10 +1,9 @@
 import React from "react";
-
+import './style.css'
 const Project2 = () => {
   return (
-    <div>
-      LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
-      Project2
+    <div className="Project2">
+      My name Hadeel, Iam 21 years old
     </div>
   );
 };

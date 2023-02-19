@@ -16,7 +16,7 @@ function Header() {
     >
       <Container>
         <Navbar.Brand href="/">
-          <h1>Portfolio</h1>
+          <h1 className="logo">Portfolio</h1>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
