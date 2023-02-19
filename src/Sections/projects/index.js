@@ -1,13 +1,12 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Outlet } from "react-router-dom";
-import Tab from "../../components/tab";
-import Title from "../../components/Title";
+import { Tab, Title } from '../../components' 
 import "./style.css";
 
 const Projects = () => {
   return (
-    <section className="ProjectsSection">
+    <section className="ProjectsSection" id="Projects">
       <Container>
         <Row>
           <Col>

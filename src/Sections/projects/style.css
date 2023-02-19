@@ -1,13 +1,14 @@
-.ProjectsSection{
-    background-color: black;
-    text-align: center;
-    padding-top: 5%;
+.ProjectsSection {
+  background-color: #101826;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 70px;
 }
-.ProjectsSection p{
-    color: #BBB;
-    margin-top:15px ;
-    text-align: center;
+.ProjectsSection p {
+  color: #bbb;
+  margin-top: 15px;
+  text-align: center;
 }
-.ProjectsSection .row{
-    display: block;
+.ProjectsSection .row {
+  display: block;
 }

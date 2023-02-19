@@ -1,11 +1,14 @@
-.icon{
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    background-color: rgba(97, 95, 95,0.5);
-    border: 1px solid #fff;
-    margin: 0 7px;
+.icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgba(97, 95, 95, 0.5);
+  border: 1px solid #fff;
+  margin: 0 7px;
+}
+.icon:hover {
+  background-color: #5abeb6;
 }

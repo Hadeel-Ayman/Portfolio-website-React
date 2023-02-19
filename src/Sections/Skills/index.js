@@ -2,9 +2,7 @@ import React from "react";
 import "./style.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Progress from "../../components/Progress";
-import { Col, Container, Row } from "react-bootstrap";
-import Title from "../../components/Title";
+import { Title, Progress } from "../../components";
 
 const Skills = () => {
   const carousel = {
@@ -28,35 +26,21 @@ const Skills = () => {
 
   return (
     <section className="skillsSection" id="skills">
-      {/* <Carousel responsive={carousel} infinite={true} className='slider'>
-        <Progress title={'fff'} number='50'/>
-      </Carousel> */}
-
-      <Container>
-        <Row>
-          <Col>
-            <div className="skillsDiv">
-            <Title title={'Skills'}/>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                dui lacus, suscipit et viverra lobortis, venenatis nec magna.
-                Morbi a
-              </p>
-              <Carousel
-                responsive={carousel}
-                infinite={true}
-                className="slider"
-              >
-                <div className="flexSection">
-                  <Progress number="50" title="web development" />
-                  <Progress number="60" title="web development" />
-                  <Progress number="80" title="web development" />
-                </div>
-              </Carousel>
-            </div>
-          </Col>
-        </Row>
-      </Container>
+      <div className="skillsDiv">
+        <div>
+          <Title title={"Skills"} />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dui
+            lacus, suscipit et viverra lobortis, venenatis nec magna. Morbi a
+          </p>
+        </div>
+        <Carousel responsive={carousel} infinite={true}>
+          <Progress number="50" title="Backend development" />
+          <Progress number="50" title="Backend development" />
+          <Progress number="50" title="Backend development" />
+          <Progress number="50" title="Backend development" />
+        </Carousel>
+      </div>
     </section>
   );
 };

@@ -1,6 +1,5 @@
 .flex {
   display: flex;
-  margin: 0 10px;
 }
 .container {
   display: flex;
@@ -11,6 +10,17 @@
   margin: 0 15px;
   text-decoration: none;
 }
-h1{
+h1 {
   color: #fff;
+}
+.connects {
+  padding: 10px;
+  border-radius: 20px;
+  outline: none;
+  background-color: #5ec4c4;
+  border: none;
+}
+.connects:hover {
+  background-color: antiquewhite;
+  transform: scale(1.1);
 }

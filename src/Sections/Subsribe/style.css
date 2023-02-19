@@ -1,0 +1,47 @@
+.SubscribeSection{
+    background-color: #101826;
+}
+.newsletter {
+  background-color: #5abeb6;
+  border-radius: 55px;
+  color: #121212;
+  padding: 85px 125px;
+  margin-bottom: 80px;
+  margin-top: -70px;
+}
+.newsletter input,
+button {
+  outline: none;
+}
+.newsletter input {
+  width: 100%;
+  color: #000;
+  font-weight: 500;
+  background: transparent;
+  border-radius: 8px;
+  border: 1px solid #575757;
+  padding: 5px 20px;
+}
+.newsletter button {
+  background-color: #fff;
+  padding: 5px 20px;
+  color: #000;
+  font-weight: 500;
+  border: none;
+  border-radius: 19px;
+}
+.newsletter h2 {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 1.2em;
+}
+.email {
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 20px;
+  position: relative;
+  z-index: 0px;
+  display: flex;
+  margin-bottom: 7px;
+  align-items: center;
+}

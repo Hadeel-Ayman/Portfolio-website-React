@@ -1,13 +1,8 @@
 import React from "react";
-import { Button } from "react-bootstrap";
 import "./style.css";
 
-const Buttons = ({ title }) => {
-  return (
-    <Button variant="outline-light" className="connect">
-      {title}
-    </Button>
-  );
+const Buttons = ({ title, onClick }) => {
+  return <button className="connect" type="submit" onClick={onClick}>{title}</button>
 };
 
 export default Buttons;

@@ -1,11 +1,7 @@
 .main {
   margin-top: 0;
-  padding: 150px 0 100px 0;
-  background-image: linear-gradient(90deg,#000,#434343);
-  /* background-image: url("../../assets/images/2.jpg"); */
-  /* background-position: top center; */
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
+  padding: 90px 0;
+  background-color: #101826;
 }
 .main .tagline {
   font-weight: 700;
@@ -23,14 +19,10 @@
   display: inline-block;
 }
 .main h1 {
-  font-size: 65px;
   font-weight: 700;
   letter-spacing: 0.8px;
   margin-bottom: 20px;
   display: block;
-  background-image: linear-gradient(90deg,#ba5370,#f4e2d8 );
-  background-clip: text;
-  color: transparent;
 }
 .main p {
   color: #bbb;
@@ -63,8 +55,8 @@
 .main img {
   animation-name: girl;
   position: relative;
-  width: 560px;
-  animation-duration: 5s;
+  width: 400px;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
@@ -75,14 +67,58 @@
 }
 @keyframes girl {
   0% {
-    transform: translateY(-20%);
+    transform: translateY(-10%);
   }
 
   50% {
-    transform: translateY(20%);
+    transform: translateY(10%);
   }
 
   100% {
-    transform: translateY(-20%);
+    transform: translateY(-10%);
+  }
+}
+
+.title1 {
+  animation-name: moveRight;
+  animation-duration: 0.7s;
+  color: #5abeb6;
+}
+.titleTwo {
+  animation-name: moveLeft;
+  color: #5abeb6;
+  animation-duration: 1s;
+}
+.titleThree {
+  animation-name: moveRight;
+  color: #5abeb6;
+  animation-duration: 1.3s;
+}
+.text {
+  font-size: 39px;
+  color: #5abeb6;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+@keyframes moveRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-150px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
   }
 }

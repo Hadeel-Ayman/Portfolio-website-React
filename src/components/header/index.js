@@ -1,5 +1,4 @@
 import { Navbar, Nav, Container } from "react-bootstrap";
-import Buttons from "../Button";
 import "./style.css";
 import icon1 from "../../assets/images/nav-icon1.svg";
 import icon2 from "../../assets/images/nav-icon2.svg";
@@ -8,10 +7,16 @@ import Icon from "../Icons";
 
 function Header() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" sticky="top">
+    <Navbar
+      collapseOnSelect
+      expand="lg"
+      bg="dark"
+      sticky="top"
+      style={{ zIndex: "999999" }}
+    >
       <Container>
         <Navbar.Brand href="/">
-          <h1>Profile</h1>
+          <h1>Portfolio</h1>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -22,10 +27,10 @@ function Header() {
             <a href="#skills" className="text-light">
               Skills
             </a>
-            <a href="#projects" className="text-light">
+            <a href="#Projects" className="text-light">
               Projects
             </a>
-            <a href="#courses" className="text-light">
+            <a href="#Courses" className="text-light">
               Courses
             </a>
             <div className="flex">
@@ -42,9 +47,13 @@ function Header() {
                 icon={icon3}
               />
             </div>
-            <Buttons title="Let’s Connect" />
           </Nav>
         </Navbar.Collapse>
+        <a href="#Connect">
+          <button className="connects" >
+            Let’s Connect
+          </button>
+        </a>
       </Container>
     </Navbar>
   );
