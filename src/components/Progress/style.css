@@ -1,8 +1,10 @@
 .box {
   position: relative;
-  width:270px;
+  width:323px;
   height: 400px;
   display: flex;
+  padding: 0 50px;
+  /* background-color: aquamarine; */
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -51,5 +53,5 @@
   color: #fff;
   font-size: 20px;
   width: 260px;
-  margin-left:-40px;
+  margin-left:-35px;
 }
