@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./style.css";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import girl from "../../assets/images/girls.png";
@@ -6,9 +6,6 @@ import { Col, Container, Row } from "react-bootstrap";
 import Typewriter from "typewriter-effect";
 
 const Main = () => {
-  const [visiable, setVisiable] = useState(false);
-  useEffect(() => {}, []);
-
   const [state] = useState({
     title: "Hi! ",
     titleTwo: "I’m ",
